@@ -1,108 +1,26 @@
 jenkins:
-
   authorizationStrategy:
     loggedInUsersCanDoAnything:
       allowAnonymousRead: false
- 
   disableRememberMe: false
-  labelAtoms:
-  - name: "built-in"
-  - name: "default"
-  - name: "node1DevTeam1cw"
   markupFormatter: "plainText"
   mode: NORMAL
   myViewsTabBar: "standard"
-  noUsageStatistics: true
-  nodes:
-  - permanent:
-      labelString: "default"
-      launcher:
-        jnlp:
-          webSocket: true
-          workDirSettings:
-            disabled: false
-            failIfWorkDirIsMissing: false
-            internalDir: "remoting"
-      name: "node1DevTeam1cw"
-      remoteFS: "/var/jenkins"
-      retentionStrategy: "always"
-  numExecutors: 2
+  numExecutors: 0
   primaryView:
     all:
       name: "all"
   projectNamingStrategy: "standard"
   quietPeriod: 5
-
+  remotingSecurity:
+    enabled: true
   scmCheckoutRetryCount: 0
-  
-  slaveAgentPort: -1
-  updateCenter:
-    sites:
-    - id: "core-cm-offline"
-      url: "file:/var/cache/cloudbees-core-cm/war/WEB-INF/plugins/update-center.json"
-    - id: "cap-core-cm"
-      url: "https://jenkins-updates.cloudbees.com/update-center/envelope-core-cm/update-center.json"
+  securityRealm: "operationsCenter"
+  slaveAgentPort: 50000
   views:
   - all:
       name: "all"
   viewsTabBar: "standard"
-
-support:
-  automatedBundleConfiguration:
-    componentIds:
-    - "CloudBeesAssuranceSupport"
-    - "CloudBeesCasCBundlesSupport"
-    - "AgentsConfigFile"
-    - "ConfigFileComponent"
-    - "OtherConfigFilesComponent"
-    - "AboutBrowser"
-    - "AboutJenkins"
-    - "AboutUser"
-    - "AdministrativeMonitors"
-    - "AgentProtocols"
-    - "BuildQueue"
-    - "CustomLogs"
-    - "DumpExportTable"
-    - "EnvironmentVariables"
-    - "FileDescriptorLimit"
-    - "GCLogs"
-    - "HeapUsageHistogram"
-    - "ItemsContent"
-    - "AgentsJVMProcessSystemMetricsContents"
-    - "MasterJVMProcessSystemMetricsContents"
-    - "JenkinsLogs"
-    - "LoadStats"
-    - "LoggerManager"
-    - "Metrics"
-    - "NetworkInterfaces"
-    - "NodeMonitors"
-    - "OtherLogs"
-    - "ReverseProxy"
-    - "RootCAs"
-    - "RunningBuilds"
-    - "SlaveCommandStatistics"
-    - "SlaveLaunchLogs"
-    - "SlaveLogs"
-    - "AgentsSystemConfiguration"
-    - "MasterSystemConfiguration"
-    - "SystemProperties"
-    - "TaskLogs"
-    - "ThreadDumps"
-    - "UpdateCenter"
-    - "UserCount"
-    - "ComponentImpl"
-    - "SlowRequestComponent"
-    - "HighLoadComponent"
-    - "DeadlockRequestComponent"
-    - "OperationsCenterSupportComponent"
-    - "PipelineTimings"
-    - "PipelineThreadDump"
-    enabled: true
-    period: 1
-globalCredentialsConfiguration:
-  configuration:
-    providerFilter: "none"
-    typeFilter: "none"
 unclassified:
   buildDiscarders:
     configuredBuildDiscarders:
@@ -132,7 +50,7 @@ unclassified:
   gitHubConfiguration:
     apiRateLimitChecker: ThrottleForNormalize
   gitHubPluginConfig:
-    hookUrl: "http://34.148.138.82:8080/github-webhook/"
+    hookUrl: "http://chriswroble.net/devteam5/github-webhook/"
   gitSCM:
     addGitTagAction: false
     allowSecondFetch: false
@@ -141,36 +59,11 @@ unclassified:
     hideCredentials: false
     showEntireCommitSummaryInChanges: false
     useExistingAccountWithSameEmail: false
-  hAGlobalConfiguration:
-    bindPort: 0
-    diagnosticPort: 0
-    portRange: 0
-    timeout: 30
   junitTestResultStorage:
     storage: "file"
-  location:
-    adminAddress: "address not configured yet <nobody@nowhere>"
-    url: "http://34.148.138.82:8080/"
   mailer:
     charset: "UTF-8"
     useSsl: false
     useTls: false
-  operationsCenterRootAction:
-    connectionDetails: "----- BEGIN CONNECTION DETAILS -----\nH4sIAAAAAAAAAA2NSQ7CMAwA/+IzTpo0adyc+QF8IE7MIsqiEuCA+Due42ik+cJxLbcOGYjq5KTO\r\
-      \n6H1jDMSELM3h7KXFEJljSrCBc9N2wK2891KuTs1rXVSden9ka8dg3EjGD5NJKZNiNfkI7+71Ivo5\r\
-      \nlOUpvz9FMaqbdwAAAA==\r\n----- END CONNECTION DETAILS -----\n"
-  pollSCM:
-    pollingThreadCount: 10
   usageStatisticsCloudBees:
-    disabledJenkinsUsageStatistics: true
     usageStatisticsCollected: true
-tool:
-  cloudbeesPluginUsageAnalyzer:
-    enabled: true
-  git:
-    installations:
-    - home: "git"
-      name: "Default"
-  mavenGlobalConfig:
-    globalSettingsProvider: "standard"
-    settingsProvider: "standard"
