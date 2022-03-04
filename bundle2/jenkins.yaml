@@ -1,4 +1,5 @@
 jenkins:
+ systemMessage: "CB CI w/hibernation"
   agentProtocols:
   - "Diagnostic-Ping"
   - "JNLP4-connect"
