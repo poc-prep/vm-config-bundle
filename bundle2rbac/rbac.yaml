@@ -26,22 +26,18 @@ groups:
         grantedAt: current 
     members:
       users:
-        - admin
-      external_groups:
-        - "ldap-cb-admins"
+        - cwroble
+
   - name: Developers
     roles:  
       - name: developer
     members:
       users:
-        - developer
-      internal_groups:
-        - "some-other-group"
-      external_groups:
-        - "ldap-cb-developers"
+        - dan
+
   - name: Readers
     roles:
       - name: browser
     members:
       users:
-        - read
+        - randy
