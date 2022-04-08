@@ -4,5 +4,3 @@ description: "casc"
 version: "1"
 jcasc:
   - "jenkins.yaml"
-plugins:
-  - "plugins.yaml"
