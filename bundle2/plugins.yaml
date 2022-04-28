@@ -11,3 +11,4 @@ plugins:
 - id: config-file-provider
 - id: sonar
 - id: Office-365-Connector
+- id: xray-connector
