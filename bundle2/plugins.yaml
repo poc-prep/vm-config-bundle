@@ -9,3 +9,4 @@ plugins:
 - id: github
 - id: timestamper
 - id: config-file-provider
+- id: sonar
