@@ -12,6 +12,6 @@ configurations:
     Office-365-Connector:
       version: '4.16.1'
     jquery:
-      version: '1.12.4-0'
+      version: '1.12.4-1'
      xray-connector: 
       version: '2.6.1'
