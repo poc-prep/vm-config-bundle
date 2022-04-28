@@ -6,4 +6,3 @@ configurations:
 - description: Additional Plugins
   includePlugins:
     job-import-plugin: {version: '3.5'}
-    jira: {version: ‘3.7.1’}
