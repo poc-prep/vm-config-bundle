@@ -9,3 +9,11 @@ configurations:
       version: '3.5'
     sonar:
       version: '2.14'
+    Office-365-Connector:
+      version: ‘4.16.1’
+    xray-connector: 
+      version: ‘2.6.1’
+    nexus-jenkins-plugin:
+      version: ‘3.14.405.v74e19a_0b_1a_1a_’
+    nexus-artifact-uploader:
+      version: ‘2.13’
