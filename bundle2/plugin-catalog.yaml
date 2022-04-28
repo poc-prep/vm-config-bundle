@@ -21,5 +21,3 @@ configurations:
       version: '61.v49f749d31d98'
     pipeline-utility-steps:
       version: '2.12.0'
-    ws-cleanup:
-      version: '0.42'
