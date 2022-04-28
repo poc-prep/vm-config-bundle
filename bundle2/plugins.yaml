@@ -11,7 +11,6 @@ plugins:
 - id: config-file-provider
 - id: sonar
 - id: Office-365-Connector
-- id: xray-connector
 - id: docker-workflow
 - id: docker-commons
 - id: blueocean
