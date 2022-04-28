@@ -5,4 +5,7 @@ version: "1"
 configurations:
 - description: Additional Plugins
   includePlugins:
-    job-import-plugin: {version: '3.5'}
+    job-import-plugin:
+      version: '3.5'
+    sonar:
+      version: '2.14'
