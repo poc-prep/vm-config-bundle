@@ -17,3 +17,5 @@ plugins:
 - id: nexus-jenkins-plugin
 - id: nexus-artifact-uploader
 - id: docker-build-step
+- id: github-pr-comment-build
+- id: pipeline-utility-steps
