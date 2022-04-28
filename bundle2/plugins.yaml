@@ -10,4 +10,3 @@ plugins:
 - id: timestamper
 - id: config-file-provider
 - id: sonar
-- id: Office-365-Connector
