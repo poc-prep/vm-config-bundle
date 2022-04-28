@@ -4,4 +4,3 @@ plugins:
 - id: configuration-as-code
 - id: cloudbees-pipeline-policies
 - id: job-import-plugin
-- id: jira
