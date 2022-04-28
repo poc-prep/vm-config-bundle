@@ -1,9 +1,9 @@
-displayName: CloudBees CI Workshop Plugin Catalog
-name: cbci-workshop-catalog
+displayName: CloudBees CI Additional Plugin Catalog
+name: cbci-catalog
 type: plugin-catalog
 version: "1" 
 configurations:
-- description: Workshop Additional Plugins
+- description: Additional Plugins
   includePlugins:
-    pipeline-utility-steps: {version: '2.6.1'}
     job-import-plugin: {version: '3.5'}
+    jira: {version: ‘3.7.1’}
