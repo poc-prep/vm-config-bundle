@@ -14,3 +14,6 @@ plugins:
 - id: docker-workflow
 - id: docker-commons
 - id: blueocean
+- id: nexus-jenkins-plugin
+- id: nexus-artifact-uploader
+- id: docker-build-step
