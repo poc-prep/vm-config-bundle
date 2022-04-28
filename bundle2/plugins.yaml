@@ -8,3 +8,4 @@ plugins:
 - id: github-branch-source
 - id: github
 - id: timestamper
+- id: config-file-provider
