@@ -6,3 +6,4 @@ configurations:
 - description: Additional Plugins
   includePlugins:
     job-import-plugin: {version: '3.5'}
+    Office-365-Connector: {version: ‘4.16.1'}
