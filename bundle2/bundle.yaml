@@ -1,7 +1,7 @@
 apiVersion: "1"
 id: "wroble2"
 description: "casc2"
-version: "22"
+version: "23"
 jcasc:
   - "jenkins.yaml"
 plugins:
