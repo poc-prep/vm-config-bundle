@@ -15,3 +15,4 @@ plugins:
 - id: xray-connector
 - id: docker-workflow
 - id: docker-commons
+- id: blueocean
