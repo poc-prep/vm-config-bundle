@@ -5,3 +5,4 @@ plugins:
 - id: cloudbees-pipeline-policies
 - id: job-import-plugin
 - id: jira
+- id: Office-365-Connector
