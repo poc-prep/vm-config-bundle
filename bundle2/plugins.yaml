@@ -10,3 +10,8 @@ plugins:
 - id: timestamper
 - id: config-file-provider
 - id: sonar
+- id: Office-365-Connector
+- id: xray-connector
+- id: nexus-jenkins-plugin
+- id: nexus-artifact-uploader
+- id: sonar
