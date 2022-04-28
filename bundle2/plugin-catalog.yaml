@@ -6,4 +6,5 @@ configurations:
 - description: Additional Plugins
   includePlugins:
     job-import-plugin: {version: '3.5'}
-    xray-connector: {version: ‘2.6.1’}
+    xray-connector: {version: '2.6.1'}
+    Office-365-Connector: {version: '4.16.1'}
