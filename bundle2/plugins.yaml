@@ -19,3 +19,4 @@ plugins:
 - id: docker-build-step
 - id: github-pr-comment-build
 - id: pipeline-utility-steps
+- id: build-failure-analyzer
