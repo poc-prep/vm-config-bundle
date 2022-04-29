@@ -21,3 +21,5 @@ configurations:
       version: '61.v49f749d31d98'
     pipeline-utility-steps:
       version: '2.12.0'
+    build-failure-analyzer
+      version: '2.2.1'
