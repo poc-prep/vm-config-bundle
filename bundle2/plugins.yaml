@@ -20,4 +20,3 @@ plugins:
 - id: github-pr-comment-build
 - id: pipeline-utility-steps
 - id: build-failure-analyzer
-- id: build-monitor-plugin
