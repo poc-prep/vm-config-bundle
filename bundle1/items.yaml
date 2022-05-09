@@ -2,7 +2,7 @@ removeStrategy:
   rbac: SYNC
   items: NONE
 items:
-- kind: folder
+- kind: "folder"
   displayName: "template-jobs"
   name: "template-jobs"
   properties:
