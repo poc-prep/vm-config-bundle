@@ -3,5 +3,25 @@ removeStrategy:
   items: NONE
 items:
 - kind: folder
-  displayName: template-jobs
   name: template-jobs
+  description: ''
+  displayName: template-jobs
+  items:
+  - kind: cloudbeesTemplatedJob
+    catalog: poc-catalog
+    name: 4stage
+    model: poc-catalog/4stage
+    attributes:
+    - value: 4stage
+      key: name
+  properties:
+  - pipeline-model-docker:
+      registry:
+        dockerRegistryEndpoint: {}
+      dockerLabel: ''
+  - envVars: {}
+  - itemRestrictions:
+      allowedTypes:
+      - poc-catalog/useSharedAgent
+      - poc-catalog/4stage
+      filter: true
