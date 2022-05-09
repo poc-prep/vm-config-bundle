@@ -1,2 +1,21 @@
 jenkins:
-  systemMessage: "Welcome to CloudBees CI - Lumen v3"
+  systemMessage: "Welcome to CloudBees CI - Lumen v4, bundle 1"
+globalCloudBeesPipelineTemplateCatalog:
+  catalogs:
+  - branchOrTag: "main"
+    scm:
+      github:
+        configuredByUrl: true
+        id: "381c75a5-0317-4399-a30e-be4d43015d02"
+        repoOwner: "poc-prep"
+        repository: "poc-pipeline-template-catalog"
+        repositoryUrl: "https://github.com/poc-prep/poc-pipeline-template-catalog"
+        traits:
+        - gitHubBranchDiscovery:
+            strategyId: 1
+        - gitHubPullRequestDiscovery:
+            strategyId: 1
+        - gitHubForkDiscovery:
+            strategyId: 1
+            trust: "gitHubTrustPermissions"
+    updateInterval: "1d"
