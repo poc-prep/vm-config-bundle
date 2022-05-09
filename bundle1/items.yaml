@@ -2,6 +2,6 @@ removeStrategy:
   rbac: SYNC
   items: NONE
 items:
-- kind: "folder"
-  displayName: "template-jobs"
-  name: "template-jobs"
+- kind: folder
+  displayName: template-jobs
+  name: template-jobs
