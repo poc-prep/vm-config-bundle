@@ -3,3 +3,5 @@ plugins:
 - id: cloudbees-casc-items-api
 - id: configuration-as-code
 - id: cloudbees-pipeline-policies
+- id: cloudbees-casc-items-commons
+- id: cloudbees-casc-items-controller
