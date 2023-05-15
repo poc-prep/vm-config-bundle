@@ -1,6 +1,6 @@
 apiVersion: "1"
 id: "wroble2"
-description: "casc2"
+description: "bundle2"
 version: "1"
 jcasc:
   - "jenkins.yaml"
